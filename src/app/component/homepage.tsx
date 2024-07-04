@@ -7,7 +7,7 @@ import { HeroHighlightDemo } from "./HeroHighlightDemo";
 function Homepage() {
   return (
 
-    <div className="min-h-screen bg-no-repeat">
+    <div>
         <HeroHighlightDemo />
     </div>
   );
