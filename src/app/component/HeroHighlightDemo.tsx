@@ -4,7 +4,7 @@ import { HeroHighlight, Highlight } from "@/app/component/ui/hero-highlight";
 
 export function HeroHighlightDemo() {
   return (
-    <HeroHighlight>
+    <HeroHighlight className="min-h-screen">
       <motion.h1
         initial={{
           opacity: 0,
